@@ -20,4 +20,24 @@
   .counters__button_transparent {
     display: none;
   }
+  .counters__prize_wrapper {
+    margin-right: 10%;
+  }
+}
+@media (max-width: 768px){
+  .counters__prize_wrapper {
+    margin-bottom: 48px;
+  }
+  h1 {
+    margin: 32px 0 50px;
+  }
+  .counters__tuning-block {
+  margin: 0 48px 20px 0;
+  }
+  .counters__prize_bloc1 {
+    display: none;
+  }
+  .counters__prize_bloc2 {
+   padding-left: 2%;
+   width: 70%;
 }
