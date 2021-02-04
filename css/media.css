@@ -1,0 +1,23 @@
+/* media queries */
+
+/* desktop first */
+@media (min-width: 1441px){
+
+}
+@media (min-width: 1201px) {
+  .content__teams {
+    width: 600px;
+  }
+}
+
+}
+@media (max-width: 1200px) {
+  .content {
+    flex-direction: column;
+  }
+}
+@media (max-width: 1024px) {
+  .counters__button_transparent {
+    display: none;
+  }
+}
