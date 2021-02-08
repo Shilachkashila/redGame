@@ -11,49 +11,39 @@
   <link rel="stylesheet" href="css/media.css">
 </head>
 <body>
-    <div class="wrapper">
+    <div class="site__wrapper">
       <header class="header">
-        <img class="logo"src="img/logo.svg" alt="logo">
-        <p class="logo__text">ForceX<br>Gaming</p>
-        <div class="header__link-wrapper">
+        <div class="logo">
+          <a class="logo__link" href="#">
+            <img class="logo__img"src="img/logo.svg" alt="logo">
+            <p class="logo__text">ForceX<br>Gaming</p>
+          </a>
+        </div>
+        <button class="menu__button" type="button" name="button"></button>
+        <!-- <div class="header__link-wrapper">
           <a href="" class="header__link">tournaments</a>
           <a href="" class="header__link">ladders</a>
           <a href="" class="header__link">leader board</a>
           <a href="" class="header__link">discover</a>
           <a href="" class="header__link">esports</a>
           <a href="" class="header__link">support</a>
-        </div>
-        <a href="" class="header__link header__link_right" title=""><img class="img_twitch" src="img/twitch.svg"></a>
-        <button type="button" name="sign up" class="button_red "
-         style=" height: 48px; width: 173px ">sign up</button>
-        <div class="header_anonym"><img class="img_anonym" src="img/anonym.svg"><span>anonymous</span></div>
+        </div> -->
+        <a href="" class="header__link header__link_twitch" title=""><img class="img_twitch" src="img/twitch.svg"></a>
+        <button class="button_red header__button" type="button" name="sign up"
+         >sign up</button>
+        <!-- <div class="header_anonym"><img class="img_anonym" src="img/anonym.svg"><span>anonymous</span></div> -->
       </header>
       <section class="content">
         <div class="content__counters">
-          <div class="counters__button-wrapper">
-            <button class="button_red counters__button-red" style="width: 184px; height: 32px;" type="button">
+          <div class="counters__button_wrapper">
+            <button id="inProgress"class="button_red counters__button-red" type="button">
+            in progress</button>
+            <button class="button_red counters__button-red" type="button">
               free registration</button>
-            <button class="button_red counters__button-red" style="width: 184px; height: 32px;" type="button">
+            <button class="button_red counters__button-red" type="button">
               5v5 captain mode</button>
-            <button class="button_red counters__button-red" style="width: 184px; height: 32px;" type="button">
-              in progress</button>
           </div>
           <h1>counted logic<br> tournament</h1>
-          <div class="counters__tuning-wrapper">
-            <div class="counters__tuning-block">
-              <p>Type: Regular</p>
-              <p>Slots: 8 (Registered Teams)</p>
-            </div>
-            <div class="counters__tuning-block">
-              <p>Round Start: ASAP</p>
-              <p>Game timer: 15 min</p>
-            </div>
-            <div class="counters__tuning-block">
-              <p>Format: Single Elimination</p>
-              <p>Structure: BO1</p>
-            </div>
-            <button class="counters__button_transparent" type="button">show all 12 tournaments</button>
-          </div>
           <div class="counters__prize_wrapper">
             <div class="counters__prize">
               <div class="counters__prize_bloc1">
@@ -71,15 +61,30 @@
             <div class="counters__prize_corner">
             </div>
           </div>
+          <div class="counters__tuning-wrapper">
+            <div class="counters__tuning-block">
+              <p>Type: Regular</p>
+              <p>Slots: 8 (Registered Teams)</p>
+            </div>
+            <div class="counters__tuning-block">
+              <p>Round Start: ASAP</p>
+              <p>Game timer: 15 min</p>
+            </div>
+            <div class="counters__tuning-block">
+              <p>Format: Single Elimination</p>
+              <p>Structure: BO1</p>
+            </div>
+            <button class="counters__button_transparent" type="button">show all 12 tournaments</button>
           </div>
-        <div class="content__teams">
+         </div>
+        <!-- <div class="content__teams">
           <div class="title__wrapper">
             <h2 class="title">teams</h2>
             <button type="button" name="sign up" class="button_white"
              style=" height: 48px; width: 173px ">create team</button>
           </div>
           <!-- teams card -->
-          <div class="teams__card">
+          <!-- <div class="teams__card">
             <div class="teams__img-wrapper">
               <img class="teams__img"src="img/image 17.svg">
             </div>
@@ -175,16 +180,16 @@
             <button class="teams__button" type="button" name="button">vote</button>
             <button class="teams__button" type="button" name="button">join</button>
           </div>
-        </div>
-        <div class="content__matches">
-          <div class="title__wrapper">
+        </div> -->
+        <!-- <div class="content__matches"> -->
+          <!-- <div class="title__wrapper">
               <h2 class="title">latest matches</h2>
               <button type="button" name="sign up" class="button_white"
                style=" height: 48px; width: 173px ">create team</button>
             </div>
 
             <!-- teams card -->
-          <div class="matches__card matches__card1">
+          <!-- <div class="matches__card matches__card1">
                 <img class="matches__img"src="img/matches1.svg">
               <div class="matches__card_text">
                 <span class="matches__text_red">cs:go league</span><br>
@@ -228,7 +233,7 @@
               </div>
             </div>
         </div>
-      </section>
+      </section> -->
 
       <footer class="footer">
 
