@@ -4,28 +4,78 @@
 
 
 @media (min-width: 600px) {
+  .site__wrapper {
+  }
   .header__link_twitch {
     display: inline-block;
   }
   .img_twitch {
     height: 19px;
   }
+  .counters__button_wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 400px
+  }
+  .counters__button-red {
+    margin-right: 12px;
+  }
   h1 {
-  font-size: 72px;
-  line-height: 72px;
+    font-size: 48px;
+    line-height: 48px;
+    margin-bottom: 48px;
+  }
+  .counters__prize_wrapper {
+    margin-right: 10%;
+  }
+  .counters__prize_bloc2 {
+   justify-content: flex-start;
+   margin: 33px 0 30px;
+   width: 100%;
+   }
+  .prize__bloc2_img {
+    margin-right: 48px;
+  }
+  .prize__bloc2_text {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .counters__prize_bloc3 {
+    justify-content: flex-start;
   }
   .prize__button {
     width: 164px;
     height: 48px;
   }
-}
-@media (min-width: 1201px) {
-  .content__teams {
-    width: 600px;
+  .counters__prize_corner {
+    display: block;
+    border-top: 250px solid #212832;
+  }
+  .counters__tuning-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: auto;
+  }
+  .counters__tuning-block {
+    margin: 0 48px 20px 0;
+  }
+  .title__wrapper {
+    display: flex;
+    flex-direction: row;
+    height: 98px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .teams__text {
+  display: block;
   }
 }
 
-}
+
+
+
 @media (min-width: 1200px) {
   .header_anonym {
     display: flex;
@@ -55,10 +105,14 @@
   .counters__prize_bloc2 {
    padding-left: 2%;
  }
-  /* .counters__prize_wrapper {
-    margin-right: 10%;
-  } */
-}
+
+
+  @media (min-width: 1201px) {
+    .content__teams {
+      width: 600px;
+    }
+
+  }
 @media (min-width: 768px){
   .counters__button-red {
     margin-left: 24px;
