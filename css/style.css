@@ -18,7 +18,6 @@ body {
   background-repeat: no-repeat;
   background-color: #1A1D24;
   background-position: top center;
-  background-size: 280%;
 }
 
 .title__wrapper {
@@ -30,6 +29,7 @@ body {
   display: inline-block;
   font-size: 32px;
   line-height: 32px;
+  margin-bottom: 34px;
 }
 .title:before {
   margin-bottom: 18px;
@@ -61,34 +61,6 @@ button {
   color: #FF4646;
   background-color: #ffffff;
 }
-.header__button {
-  height: 48px;
-  width: 173px;
-}
-.menu__button {
-  position: relative;
-  width: 20px;
-  height: 21px;
-  background-color: inherit;
-}
-.menu__button::after {
-  content: "";
-  position: absolute;
-  width: 4px;
-  height: 4px;
-  border-radius: 2px;
-  background-color: #ffffff;
-  left: 0;
-  box-shadow: 6px 0 0 0 #ffffff, 12px 0 0 0 #ffffff;
-}
-.teams__button {
-  margin-left: 24px;
-  width: 68px;
-  height: 40px;
-  color: #ffffff;
-  border: 1px solid #ffffff;
-  background-color: transparent;
-}
 
 /* stylse for header */
  .header {
@@ -111,8 +83,28 @@ button {
 .logo__text {
   display: none;
 }
+.menu__button {
+  position: relative;
+  width: 20px;
+  height: 21px;
+  background-color: inherit;
+}
+.menu__button::after {
+  content: "";
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  border-radius: 2px;
+  background-color: #ffffff;
+  left: 0;
+  box-shadow: 6px 0 0 0 #ffffff, 12px 0 0 0 #ffffff;
+}
 .header__link_twitch {
   display: none;
+}
+.header__button {
+  height: 48px;
+  width: 173px;
 }
 /* .header__link-wrapper {
   display: none;
@@ -277,19 +269,24 @@ margin-bottom: 24px;
   width: 100%;
   padding-right: 24px;
   padding-left: 24px;
+  margin-bottom: 48px;
   }
   .teams__card {
   display: flex;
   align-items: center;
-  height: 134px;
+  height: 92px;
   }
   .teams__img-wrapper {
   display: flex;
   justify-content: center;
   margin-right: 24px;
-  min-width: 135px;
-  width: 135px;
+  max-width: 135px;
   }
+  .teams__img {
+    width: 100%;
+    height: auto;
+  }
+
   .teams__text {
   display: none;
   margin-right: auto;
@@ -297,6 +294,15 @@ margin-bottom: 24px;
   font-size: 24px;
   line-height: 24px;
   text-transform: none;
+  }
+  .teams__button {
+    flex: none;
+    margin-left: 24px;
+    width: 68px;
+    height: 40px;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    background-color: transparent;
   }
 
 
@@ -310,14 +316,15 @@ margin-bottom: 24px;
   display: flex;
   flex-direction: column;
   margin-top: 18px;
-  height: 250px;
+  height: 258px;
   background-color: #1E2329;
 }
 .matches__card1 {
   background-color: #212832;
 }
 .matches__img {
-  width: 450px;
+  width: 100%;
+  max-width: 450px;
   height: 144px;
 }
 .matches__card_text {
@@ -330,8 +337,8 @@ margin-bottom: 24px;
   line-height: 28px;
 }
 .matches__text_white {
-  font-size: 24px;
-  line-height: 34px;
+  font-size: 18px;
+  line-height: 27px;
 }
 
 /* .header__title {
