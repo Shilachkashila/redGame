@@ -73,8 +73,14 @@
     align-items: center;
     justify-content: space-between;
   }
+  .teams__card {
+  max-width: 100%;
+  }
   .teams__text {
-  display: inline;
+    display: inline;
+  }
+  .teams__img-wrapper {
+     margin-right: 24px;
   }
   .matches__card {
     height: 250px;
@@ -108,14 +114,24 @@
   .counters__prize_bloc2 {
    padding-left: 2%;
    width: 70%;
-}
-.counters__prize_bloc3 {
-  width: 25%;
-}
-.teams__card {
-height: 134px;
+  }
+  .counters__prize_bloc3 {
+    width: 25%;
+  }
+  .teams__card {
+    height: 134px;
+  }
+  .teams__img-wrapper {
+    width: 135px;
+  }
 }
 
+@media (min-width: 1024px) {
+  .content__teams {
+    padding-right: 24px;
+    padding-left: 24px;
+  }
+}
 
 
 

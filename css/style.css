@@ -267,26 +267,20 @@ margin-bottom: 24px;
   .content__teams {
   box-sizing: border-box;
   width: 100%;
-  padding-right: 24px;
-  padding-left: 24px;
   margin-bottom: 48px;
   }
   .teams__card {
   display: flex;
   align-items: center;
+  max-width: 360px;
   height: 92px;
   }
   .teams__img-wrapper {
   display: flex;
   justify-content: center;
-  margin-right: 24px;
-  max-width: 135px;
+  margin-right: auto;
+  width: 92px;
   }
-  .teams__img {
-    width: 100%;
-    height: auto;
-  }
-
   .teams__text {
   display: none;
   margin-right: auto;
